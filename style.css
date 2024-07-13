@@ -1,0 +1,138 @@
+/* style.css */
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header styling */
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header .logo {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    color: #0779e4;
+}
+
+/* Intro section */
+#home {
+    background: #0779e4;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+#home .home-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#home .intro-text {
+    max-width: 50%;
+}
+
+#home .intro-image img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.buttons .btn {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    background: #fff;
+    color: #0779e4;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.buttons .btn:hover {
+    background: #333;
+    color: #fff;
+}
+
+/* About section */
+#about {
+    padding: 50px 0;
+    background: #fff;
+    text-align: center;
+}
+
+#about img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#about .about-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Biography section */
+#biography {
+    padding: 50px 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#biography .biography-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Footer styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
